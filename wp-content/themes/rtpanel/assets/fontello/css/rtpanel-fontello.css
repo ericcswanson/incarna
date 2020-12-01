@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'rtpanel-fontello';
+  src: url('../font/rtpanel-fontello_1651843883.eot');
+  src: url('../font/rtpanel-fontello_1651843883.eot') format('embedded-opentype'),
+       url('../font/rtpanel-fontello_124266032.woff') format('woff'),
+       url('../font/rtpanel-fontello_1650931770.ttf') format('truetype'),
+       url('../font/rtpanel-fontello_1650866749.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'rtpanel-fontello';
+    src: url('../font/rtpanel-fontello_1650866749.svg') format('svg');
+  }
+}
+*/
+ 
+ [class^="rtp-icon-"]:before, [class*=" rtp-icon-"]:before {
+  font-family: "rtpanel-fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.rtp-icon-spin5:before { content: '\e801'; } /* 'î ' */
+.rtp-icon-cancel-circled2:before { content: '\e813'; } /* 'î ' */
+.rtp-icon-bookmark:before { content: '\e80f'; } /* 'î ' */
+.rtp-icon-bookmark-empty:before { content: '\e810'; } /* 'î ' */
+.rtp-icon-thumbs-up:before { content: '\e808'; } /* 'î ' */
+.rtp-icon-comment:before { content: '\e803'; } /* 'î ' */
+.rtp-icon-comment-empty:before { content: '\e80a'; } /* 'î ' */
+.rtp-icon-trash:before { content: '\e811'; } /* 'î ' */
+.rtp-icon-doc-text:before { content: '\e80d'; } /* 'î ' */
+.rtp-icon-rss:before { content: '\e807'; } /* 'î ' */
+.rtp-icon-search:before { content: '\e802'; } /* 'î ' */
+.rtp-icon-calendar-1:before { content: '\e80c'; } /* 'î ' */
+.rtp-icon-facebook:before { content: '\e800'; } /* 'î ' */
+.rtp-icon-linkedin:before { content: '\e804'; } /* 'î ' */
+.rtp-icon-pinterest-circled:before { content: '\e806'; } /* 'î ' */
+.rtp-icon-youtube:before { content: '\e814'; } /* 'î ' */
+.rtp-icon-calendar:before { content: '\e80b'; } /* 'î ' */
+.rtp-icon-twitter:before { content: '\e805'; } /* 'î ' */
+.rtp-icon-gplus:before { content: '\e812'; } /* 'î ' */
+.rtp-icon-facebook-rect:before { content: '\e809'; } /* 'î ' */
+.rtp-icon-menu:before { content: '\e80e'; } /* 'î ' */ 

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'rtw-fontello';
+  src: url('../font/rtw-fontello_774122848.eot');
+  src: url('../font/rtw-fontello_774122848.eot') format('embedded-opentype'),
+       url('../font/rtw-fontello_1245195901.woff') format('woff'),
+       url('../font/rtw-fontello_775304817.ttf') format('truetype'),
+       url('../font/rtw-fontello_775369846.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'rtw-fontello';
+    src: url('../font/rtw-fontello_775369846.svg') format('svg');
+  }
+}
+*/
+ 
+ [class^="rtw-"]:before, [class*=" rtw-"]:before {
+  font-family: "rtw-fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.rtw-facebook:before { content: '\e800'; } /* 'î ' */
+.rtw-twitter:before { content: '\e801'; } /* 'î ' */
+.rtw-github-circled:before { content: '\e802'; } /* 'î ' */
+.rtw-rss:before { content: '\e803'; } /* 'î ' */
+.rtw-flickr-circled:before { content: '\e804'; } /* 'î ' */
+.rtw-linkedin:before { content: '\e805'; } /* 'î ' */
+.rtw-pinterest:before { content: '\e806'; } /* 'î ' */
+.rtw-gplus:before { content: '\e807'; } /* 'î ' */
+.rtw-wordpress:before { content: '\e808'; } /* 'î ' */
+.rtw-info:before { content: '\e809'; } /* 'î ' */
+.rtw-vimeo:before { content: '\e80a'; } /* 'î ' */
+.rtw-stumbleupon:before { content: '\e80b'; } /* 'î ' */
+.rtw-picasa:before { content: '\e80c'; } /* 'î ' */
+.rtw-instagram:before { content: '\e80d'; } /* 'î ' */
+.rtw-paypal:before { content: '\e80e'; } /* 'î ' */
+.rtw-soundcloud:before { content: '\e80f'; } /* 'î ' */
+.rtw-foursquare:before { content: '\e810'; } /* 'î ' */
+.rtw-stackoverflow:before { content: '\e811'; } /* 'î ' */
+.rtw-youtube:before { content: '\e812'; } /* 'î ' */
+.rtw-delicious:before { content: '\e813'; } /* 'î ' */
+.rtw-deviantart:before { content: '\e814'; } /* 'î ' */
+.rtw-digg:before { content: '\e815'; } /* 'î ' */
+.rtw-blogger:before { content: '\e816'; } /* 'î ' */
+.rtw-tumblr:before { content: '\e817'; } /* 'î ' */
+.rtw-reddit:before { content: '\e818'; } /* 'î ' */
+.rtw-level-down:before { content: '\e819'; } /* 'î ' */
